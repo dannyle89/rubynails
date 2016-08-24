@@ -1,0 +1,189 @@
+/*
+text-color: #827ca1
+border-color: #dfe4ed;
+*/
+
+/*General*/
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.icon-small{
+	font-size: 10px;
+}
+
+.row{
+	margin: 0;
+	padding:0;
+}
+
+#wrapper{
+	width: 100%;
+}
+
+/*header*/
+#header{
+	height: 60px;
+	width: 100%;
+	border-bottom: solid 1px #dfe4ed; 
+}
+
+#logo{
+	width: 240px;
+	font-size: 20px;
+	padding-top: 15px;
+	padding-left: 25px;
+}
+
+#account-panel{
+	padding-top: 20px;
+	padding-right: 25px;
+}
+
+/*side-menu*/
+#side-menu{
+	height: 100%;
+	width: 240px;
+	border-right: solid 1px #dfe4ed;
+	position: absolute;
+}
+
+#side-menu > ul > li{
+	height: 40px;
+	padding-top: 10px;
+	padding-left: 25px
+}
+
+#side-menu > ul > li > a{
+	color: #827ca1;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#side-menu > ul > li > i{
+	color: #827ca1;
+	width: 20px;
+}
+
+#lang{
+	clear: both;
+    position: fixed;
+    z-index: 10;
+    bottom: 0;
+}
+
+/*main-content*/
+#main-content{
+	background-color: #eceff4;
+	position: absolute;
+	width: calc(100% - 240px);
+	min-height: 100%;
+	margin-left: 240px;
+}
+
+#primary{
+	position: relative;
+	padding-top: 15px;
+}
+
+#widget, #graph{
+	margin-bottom: 10px;
+}
+
+.widget{
+	width: 100%;
+	height: 135px;
+	padding-left: 20px;
+	padding-top: 20px;
+	border-radius: 5px;
+}
+
+.widget-header{
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+.widget-icon{
+	margin-top: 5px;
+	margin-right: 15px; 
+}
+
+.widget-icon > p{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.widget-value{
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.widget-green{
+	background-color:#46be8a !important;
+	color: #ffffff;
+}
+
+.widget-red{
+	background-color:#d9534f !important;
+	color: #ffffff;
+}
+
+.widget-blue{
+	background-color:#337ab7 !important;
+	color: #ffffff;
+}
+
+.graph-box{
+	background-color: #ffffff;
+	border: solid 1px #dfe4ed;
+	border-radius: 5px;
+	color: #827ca1;
+	height: 
+}
+
+.graph-header{
+	height: 50px;
+	border-bottom: solid 1px #dfe4ed;
+	padding-top: 15px;
+	padding-left: 10px;
+}
+
+.box{
+	margin-left:20px;
+	margin-right:20px;
+}
+
+.box-header > .col-xs-9.col-md-6 > button{
+	margin-top: 15px; 
+	float: right;
+}
+
+.box-content{
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #ffffff;
+	box-shadow: #c9c9c9 0 2px 2px 0;
+}
+
+.page-info{
+	padding-top: 35px;
+}
+
+.page-number{
+	text-align: right;
+}
+
+/*footer*/
+#footer{
+	position: fixed;
+    bottom: 0;
+    width: 100%;
+	background-color: #dfe4ed;
+	padding: 10px 20px;
+	clear: both;
+}
