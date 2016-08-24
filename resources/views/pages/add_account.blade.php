@@ -8,17 +8,19 @@
 			</div>
 		</div>
 		<div class="clearfix"></div>
-		<div class="box-content">
+		<div class="box-form">
 			<form name="add_acc_form" ng-controller="SubmitController as subCtl"
 			ng-submit="subCtl.addAccount()">
-				<div class="col-xs-18 col-md-12">
-					<input type="text" ng-model="subCtl.newAccount.name" placeholder="Full Name">
+				<div class="form-group">
+					<label for="name">Name</label>
+					<input id="name" class="form-control" type="text" ng-model="subCtl.newAccount.name">
 				</div>
-				<div class="col-xs-18 col-md-12">
-					<input type="text" ng-model="subCtl.newAccount.date" placeholder="In Date">
+				<div class="form-group">
+					<label for="join-date">Join Date</label>
+					<input id="join-date" class="form-control" type="text" ng-model="subCtl.newAccount.date">
 				</div>
 				<% csrf_field() %>
-				<div class="col-xs-18 col-md-12">
+				<div class="form-group">
 					<button class="btn btn-success" type="submit">Add</button>
 					<button class="btn btn-error" type="reset">Clear</button>
 				</div>

@@ -157,7 +157,7 @@ border-color: #dfe4ed;
 	margin-right:20px;
 }
 
-.box-header > .col-xs-9.col-md-6 > button{
+a.btn.btn-success {
 	margin-top: 15px; 
 	float: right;
 }
@@ -178,6 +178,12 @@ border-color: #dfe4ed;
 	text-align: right;
 }
 
+.box-form{
+	padding: 10px 10px 5px 10px;
+	width: 450px;
+	background-color: #ffffff;
+	box-shadow: #c9c9c9 0 2px 2px 0;
+}
 /*footer*/
 #footer{
 	position: fixed;
