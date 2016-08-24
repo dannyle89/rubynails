@@ -157,7 +157,7 @@ border-color: #dfe4ed;
 	margin-right:20px;
 }
 
-.box-header > .col-xs-9.col-md-6 > button{
+a.btn.btn-success {
 	margin-top: 15px; 
 	float: right;
 }
